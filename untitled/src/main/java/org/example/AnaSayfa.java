@@ -60,6 +60,21 @@ public class AnaSayfa implements ActionListener
         frame.add(panelalt);
         frame.setVisible(true);
     }
+    @Override
+    public void actionPerformed(ActionEvent e)
+    {
+        if (e.getSource() == button1)
+        {
+            Sifrelemek şifre = new Sifrelemek();
+            frame.dispose();
 
+        } else if (e.getSource() == button2)
+        {
+            SifreÇözmek çözzmek = new SifreÇözmek();
+            frame.dispose();
+
+        }
+
+    }
 
 }
